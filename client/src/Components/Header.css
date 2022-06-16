@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+  height: 10vh;
+  width: 100vw;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  font-size: xx-large;
+  user-select: none;
+  color: rgb(245, 226, 253);
+}
+.description {
+  font-weight: 300;
+  font-style: italic;
+}
+.header-item-sleep {
+  margin-left: auto;
+  padding-right: 50px;
+  font-weight: 100;
+  opacity: 50%;
+}
+.header-item-woke {
+  margin-left: auto;
+  padding-right: 50px;
+  font-weight: 100;
+  opacity: 100%;
+}
+
+.tracy {
+  margin: 30px;
+  padding: 10px;
+  /* border-radius: 100px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0; */
+}
